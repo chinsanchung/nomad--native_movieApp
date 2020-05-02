@@ -1,0 +1,46 @@
+{
+  "name": "nomad--native_movieApp",
+  "main": "node_modules/expo/AppEntry.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chinsanchung/nomad--native_movieApp.git"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "deploy": "netlify deploy --prod --dir web-build",
+    "predeploy": "expo build:web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
+    "@react-native-community/masked-view": "0.1.5",
+    "@react-navigation/bottom-tabs": "^5.2.1",
+    "@react-navigation/native": "^5.1.0",
+    "@react-navigation/stack": "^5.2.1",
+    "axios": "^0.19.2",
+    "expo": "~36.0.0",
+    "expo-asset": "~8.0.0",
+    "expo-font": "~8.0.0",
+    "expo-web-browser": "~8.0.0",
+    "gh-pages": "^2.2.0",
+    "prop-types": "^15.7.2",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-gesture-handler": "~1.5.0",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-safe-area-context": "0.6.0",
+    "react-native-screens": "2.0.0-alpha.12",
+    "react-native-web": "~0.11.7",
+    "react-native-web-swiper": "^2.1.0",
+    "styled-components": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
