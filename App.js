@@ -25,7 +25,7 @@ export default function App() {
       "https://pbs.twimg.com/media/EWj_BTDVcAASrYw.jpg:orig",
       require("./assets/splash.png"),
     ]);
-    const fonts = cacheFonts([IonIcons.font]);
+    const fonts = cacheFonts([Ionicons.font]);
     return Promise.all([...images, ...fonts]);
   };
 
